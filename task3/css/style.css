@@ -10,7 +10,7 @@
 }
 
 .header {
-    position:relative;
+    position: relative;
 }
 
 .header .logo {
@@ -19,31 +19,31 @@
     font-size: 34px;
     color: #060c31;
     cursor: pointer;
-    transform:translateY(10px);
+    transform: translateY(10px);
 }
 
 .loaded .header .logo {
     transition: transform 0.2s ease-out 0.1s;
-    transform:translate(0);
+    transform: translate(0);
 }
 
 .header .top {
     float: left;
     position: relative;
     margin-left: 561px;
-    opacity:0;
-    transform:translateY(40px);
+    opacity: 0;
+    transform: translateY(40px);
 }
 
 .loaded .header .top {
     transition: opacity 0.8s ease-out 0.2s,
-                transform 0.8s ease-out 0.2s;
-    opacity:1;
-    transform:translate(0);
+        transform 0.8s ease-out 0.2s;
+    opacity: 1;
+    transform: translate(0);
 }
 
 .menu {
-    float:left;
+    float: left;
     position: relative;
 }
 
@@ -63,7 +63,7 @@
 
 .top_button {
     float: right;
-    margin-left:3px;
+    margin-left: 3px;
 }
 
 .promo {
@@ -87,15 +87,15 @@
     margin-top: -7px;
     font-weight: normal;
     line-height: 1.1;
-    opacity:0;
+    opacity: 0;
     transform: translateY(50px);
 }
 
 .loaded .promo_title {
     transition: opacity 0.8s ease-out 0.7s,
-                transform 0.8s ease-out 0.7s;
-    opacity:1;
-    transform:translate(0);
+        transform 0.8s ease-out 0.7s;
+    opacity: 1;
+    transform: translate(0);
 }
 
 .promo_text {
@@ -104,15 +104,15 @@
     font-size: 15px;
     line-height: 1.87;
     color: #060c31;
-    opacity:0;
+    opacity: 0;
     transform: translateY(50px);
 }
 
 .loaded .promo_text {
     transition: opacity 0.3s ease-out 1.4s,
-                transform 0.3s ease-out 1.4s;
-    opacity:1;
-    transform:translate(0);
+        transform 0.3s ease-out 1.4s;
+    opacity: 1;
+    transform: translate(0);
 }
 
 .promo_button_start {
@@ -127,15 +127,15 @@
     background-color: #233fe2;
     cursor: pointer;
     border: none;
-    opacity:0;
+    opacity: 0;
     transform: translateY(50px);
 }
 
-.loaded .promo_button_start {
+.loaded .promo_button_start, .loaded .promo_button_create {
     transition: opacity 0.5s ease-out 1.7s,
-                transform 0.5s ease-out 1.7s;
-    opacity:1;
-    transform:translate(0);
+        transform 0.5s ease-out 1.7s;
+    opacity: 1;
+    transform: translate(0);
 }
 
 .promo_button_create {
@@ -149,15 +149,8 @@
     background-color: #fff;
     cursor: pointer;
     color: #060c31;
-    opacity:0;
+    opacity: 0;
     transform: translateY(50px);
-}
-
-.loaded .promo_button_create {
-    transition: opacity 0.5s ease-out 1.7s,
-                transform 0.5s ease-out 1.7s;
-    opacity:1;
-    transform:translate(0);
 }
 
 .top_button .create {
@@ -173,42 +166,42 @@
 }
 
 .promo_image {
-    float:left;
+    float: left;
     padding: 29px 0 0 48px;
-    opacity:0;
+    opacity: 0;
     transform: translateY(400px) scale(0.3);
 }
 
 .loaded .promo_image {
     transition: opacity 0.8s ease-out 1.9s,
-                transform 0.8s ease-out 1.9s;
-    opacity:1;
-    transform:translate(0) scale(1);
+        transform 0.8s ease-out 1.9s;
+    opacity: 1;
+    transform: translate(0) scale(1);
 }
 
 .footer {
-    float:left;
-    margin:96px 86px 0 425px;
-    width:964px;
+    float: left;
+    margin: 96px 86px 0 425px;
+    width: 964px;
 }
 
 .footer {
-    margin:96px 86px 0 425px;
-    width:964px;
-    opacity:0;
+    margin: 96px 86px 0 425px;
+    width: 964px;
+    opacity: 0;
     transform: translateY(200px);
 }
 
 .loaded .footer {
     transition: opacity 0.4s ease-out 2.7s,
-                transform 0.4s ease-out 2.7s;
-    opacity:1;
-    transform:translate(0);
+        transform 0.4s ease-out 2.7s;
+    opacity: 1;
+    transform: translate(0);
 }
 
 .footer .partners .partner {
     display: inline-block;
     list-style: none;
-    vertical-align:middle;
-    margin-right:104px;
+    vertical-align: middle;
+    margin-right: 104px;
 }
