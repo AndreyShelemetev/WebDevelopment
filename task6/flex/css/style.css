@@ -1,0 +1,142 @@
+
+.main_container {
+    max-width: 1439px;
+    margin: 0 auto;
+    padding: 43px 0 43px 77px;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+}
+
+.logo {
+    font-family: 'Crete Round', serif;
+    font-size: 34px;
+    color: #060c31;
+    cursor: pointer;
+    width: 40%;
+}
+
+.header .top {
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.menu {
+
+}
+
+.menu_item {
+    display: inline;
+}
+
+.menu_link {
+    text-decoration: none;
+    padding: 0 36px 0 0;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: bold;
+    color: #060c31;
+}
+
+
+.top_button {
+    box-sizing: border-box;
+
+}
+
+.promo {
+    display:flex;
+    justify-content: flex-start;
+    padding-left: 43px;
+}
+
+.promo_info {
+    padding-top: 100px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.promo_title {
+    position: relative;
+    font-family: 'Crete Round', sans-serif;
+    font-size: 58px;
+    color: #060c31;
+    margin-top: -7px;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+.promo_text {
+    margin-top: 43px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.87;
+    color: #060c31;
+}
+
+.promo_button_start {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    margin: 53px 18px 0 0;
+    width: 152px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #233fe2;
+    cursor: pointer;
+    border: none;
+}
+
+.promo_button_create {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 2px #ffb0b1;
+    background-color: #fff;
+    cursor: pointer;
+    color: #060c31;
+}
+
+.top_button .create {
+    font-family: 'Lato', sans-serif;
+    width: 150px;
+    height: 46px;
+    font-weight: bold;
+    border-radius: 23px;
+    border: solid 2px #ffb0b1;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.promo_image {
+    padding: 29px 0 0 48px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.adaptive_image{
+    max-width: 100%;
+}
+
+.footer {
+    margin:96px 86px 0 425px;
+    width:964px;
+}
+
+.footer .partners .partner {
+    display: inline-block;
+    list-style: none;
+    vertical-align:middle;
+    margin-right:104px;
+}
+
+
