@@ -78,6 +78,7 @@
     margin-top: -7px;
     font-weight: normal;
     line-height: 1.1;
+    max-width: 450px;
 }
 
 .promo_text {
@@ -86,6 +87,7 @@
     font-size: 15px;
     line-height: 1.87;
     color: #060c31;
+    max-width: 400px;
 }
 
 .promo_button_start {
@@ -179,7 +181,7 @@
     content: "";
     position: absolute;
     top: 0.3em;
-    left: 0px;
+    left: 0;
     width: 100%;
     border-top: 0.2em solid #000;
     display: none;
@@ -222,7 +224,7 @@
 
     .header .logo {
         width: 30%;
-        padding-left: 68px;
+        padding-left: 73px;
         box-sizing: border-box;
     }
 
@@ -291,7 +293,7 @@
     }
 
     .footer {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     .footer .partners .partner {
@@ -325,7 +327,7 @@
 
     .footer .partners .partner {
         padding-right: 20px;
-        padding-left: 0px;
+        padding-left: 0;
         padding-bottom: 10px;
     }
 
