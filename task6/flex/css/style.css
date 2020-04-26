@@ -25,11 +25,9 @@
 }
 
 .hamburger {
-    float: right;
     margin-right: 20px;
     margin-top: 10px;
     position: relative;
-    display: inline-block;
     width: 1.7em;
     height: 0.8em;
     border-top: 0.2em solid #000;
@@ -151,6 +149,7 @@
 .footer .partners .partner {
     list-style: none;
     padding-left: 104px;
+    padding-right: 45px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -158,46 +157,47 @@
         padding-top: 60px;
     }
 
+}
+
+@media screen and (max-width: 1150px) {
     .promo_title {
-        font-size: 48px;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .footer {
-        padding-top: 40px;
-    }
-}
-
-.promo_title {
-    font-size: 43px;
-}
-
-.promo_button_start {
-    margin-top: 20px;
-    width: 130px;
-    font-size: 14px;
-}
-
-.promo_button_create {
-    width: 130px;
-    font-size: 14px;
-}
-
-.footer .partners .partner {
-    list-style: none;
-    padding-left: 60px;
-}
-
-}
-
-@media screen and (max-width: 970px) {
-    .promo_title {
-        font-size: 40px;
+        font-size: 45px;
     }
 
     .promo_button_start {
         margin-top: 33px;
+    }
+
+    .footer .partners .partner {
+        padding-left: 84px;
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+    .promo_title {
+        font-size: 43px;
+    }
+
+    .footer {
+        padding-top: 40px;
+    }
+
+    .promo_button_start {
+        margin-top: 20px;
+        width: 125px;
+        font-size: 14px;
+    }
+
+    .promo_button_create {
+        width: 125px;
+        font-size: 14px;
+    }
+
+    .footer .partners .partner {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -220,8 +220,12 @@
 
     .promo_button_start {
         margin-top: 20px;
+        width: 120px;
     }
 
+    .promo_button_create {
+        width: 120px;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -293,8 +297,7 @@
     }
 
     .footer .partners .partner {
-        list-style: none;
-        padding-left: 0;
+        padding-right: 20px;
     }
 }
 
@@ -334,7 +337,6 @@
 }
 
 @media screen and (max-width: 400px) {
-
     .promo_title {
         font-size: 33px;
     }
