@@ -336,6 +336,8 @@
 
     .icon {
         display: block;
+        position: fixed;
+        right: 0;
     }
 
     .promo_title {
