@@ -235,7 +235,6 @@
         padding-right: 0;
     }
 
-
 }
 
 @media screen and (max-width: 920px) {
@@ -337,6 +336,9 @@
 
     .icon {
         display: block;
+    }
+
+    .icon_fixed {
         position: fixed;
         right: 0;
     }
